@@ -37,7 +37,11 @@ Other MCUs can be used as long as they support:
 
 ## 🚧 Status
 
-This version is still being finalized. Comments are pretty much non-existent, but hopefully the code is readable enough as it is. If something looks weird (wouldn't surprise me), let me know and I'll see if I can open it up.
+This version will not be actively developed, because in practice it is not very useful. It verifies that the user picks up the correct piece and places it on the correct square — but that’s about it. There are many corner cases that would need additional logic for consistent behavior.
+
+For example, when a capture occurs, the board can indicate which piece should move and where it should go, but how should it react to the removal of the captured piece? Handling that cleanly requires more logic, and only a simple demonstration is included in this version.
+
+If you intend to use the board as a UI device for an existing chess application, the Level 0 implementation is the recommended choice. Since the mobile chess app already knows the full game state and can validate moves, it makes sense to let the app handle all move legality checks instead of duplicating that logic on the board.
 
 ---
 
