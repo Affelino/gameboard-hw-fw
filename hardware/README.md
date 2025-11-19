@@ -4,6 +4,8 @@ This directory contains physical design files for different versions of the ches
 
 Each subdirectory includes the schematic and layout (initially as PDF), plus any relevant notes or variations. New versions may differ in size, component placement, LED type, or connector layout — see the individual folders for details.
 
+Note!!! Components on the PDF schema are not the same I ended up using. At least the hall sensor isn't the type I have verified to work. I'll update the pictures but feel free to ping me if it seems to take too long 😉
+
 ---
 
 ## Controller Requirements
