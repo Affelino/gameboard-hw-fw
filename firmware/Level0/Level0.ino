@@ -45,9 +45,10 @@ MCP23017 						mcp = MCP23017(MCP23017_ADDR);
 NeoPixelBus<NeoGrbFeature, NeoEsp8266Uart1800KbpsMethod> pixels(NUMPIXELS, PIX_PIN);
 
 //////////////////////////////////////////////////////////////////////
-const char 						*ssid = "*****";
-const char 						*password = "*****";
 #define USE_OTA					1	// Define if OTA update is needed.
+
+// Include the secret info, like wifi password etc. from file
+#include "secrets.h"
 
 //////////////////////////////////////////////////////////////////////
 WiFiClient						chessClient;

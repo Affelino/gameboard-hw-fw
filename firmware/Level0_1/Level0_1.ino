@@ -8,7 +8,7 @@
 // https://github.com/Affelino/gameboard_hw_fw
 //
 // Sends pick-up and put-down events, receives LED control commands.
-// Verifiies that the user is mirroring the opponent move correctly.
+// Verifies that the user is mirroring the opponents move correctly.
 // Does not track game status (Level 0.1).
 //
 // License and usage terms available in the above repositories.
